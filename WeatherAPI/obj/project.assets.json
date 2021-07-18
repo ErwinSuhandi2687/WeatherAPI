@@ -2312,11 +2312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI\\WeatherAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI -- Branch Erwin\\WeatherAPI\\WeatherAPI.csproj",
       "projectName": "WeatherAPI",
-      "projectPath": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI\\WeatherAPI.csproj",
+      "projectPath": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI -- Branch Erwin\\WeatherAPI\\WeatherAPI.csproj",
       "packagesPath": "C:\\Users\\Erwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI\\obj\\",
+      "outputPath": "C:\\Users\\Erwin\\Desktop\\Interview after 27 Juni 2021\\Xtramile Solution\\WeatherAPI -- Branch Erwin\\WeatherAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Erwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
