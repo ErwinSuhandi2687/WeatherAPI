@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+
+@section Scripts
+{
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <style>
+        #viewContent {
+            padding-left: 20px;
+        }
+
+            #viewContent select, #viewContent button {
+                font-size: 25px;
+            }
+
+            #viewContent h4 {
+                margin: 10px 0;
+            }
+
+            #viewContent .textAlignCenter {
+                text-align: center;
+            }
+
+                #viewContent .textAlignCenter img {
+                    display: none;
+                    width: 100px;
+                }
+
+            #viewContent #weatherDescription table {
+                width: 100%;
+            }
+
+                #viewContent #weatherDescription table th {
+                    text-align: left;
+                    text-decoration: underline;
+                }
+    </style>
+
+    <script src="~/js/Scripts.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            loadCountry();
+        });
+    </script>
+}
+<div class="container">
+    <form class="col s12" id="search-form">
+        <div class="row-fluid">
+            <label>Country :</label>
+            <select name="Country" id="Country" class="custom-select custom-select-sm form-control form-control-sm" style="margin-left: 100px; width: 50%;">
+            </select>
+        </div>
+        <div class="row-fluid">
+            <label>City :</label>
+            <select name="City" id="City" class="custom-select custom-select-sm form-control form-control-sm" style="margin-left: 100px; width: 50%;">
+            </select>
+        </div>
+        <div id="weatherDescription"  class="row-fluid"></div>
+    </form>
+</div>
